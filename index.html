@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ////////// swiper css ///////// -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./style.css">
@@ -90,7 +95,7 @@
                             165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                             129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                             -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="home_blob-img" x="10" y="5"  xlink:href="./bhai - Edited.png"/>
+                            <image class="home_blob-img" x="10" y="5"  xlink:href="./bhai - Edited.png" />
                         </g>
                     </svg>
                 </div>
@@ -458,10 +463,161 @@
 </section>
 
 
+<!-- ///////////////////// PORT Folio ////////////////// -->
+<setcion class="portfolio section" id="portfolio">
+    <h2 class="section_title">Portfolio</h2>
+    <span class="section_subtitle"> Most recent Work</span>
+    <div class="portfolio_container container swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- ////////////  Portfolio 1 //////////////// -->
+
+            <div class="portfolio_content grid swiper-slide">
+                <img src="https://www.sliderrevolution.com/wp-content/uploads/2020/08/ulesson.jpg" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Modern Website</h3>
+                    <p class="portfolio_description"> 
+                        Website adaptable to all device with UI component and animated interaction.
+
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio_button">
+                        Demo
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </a>
+
+                </div>
+            </div>
+
+
+              <!-- ////////////  Portfolio 2 //////////////// -->
+
+              <div class="portfolio_content grid swiper-slide">
+                <img src="https://tradebrains.in/wp-content/uploads/2020/09/jiomart-site.jpg" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Jio Mart | Clone</h3>
+                    <p class="portfolio_description"> 
+                        Website adaptable to all device with UI component and animated interaction.
+
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio_button">
+                        Demo
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </a>
+
+                </div>
+            </div>
+
+
+              <!-- ////////////  Portfolio 3 //////////////// -->
+
+              <div class="portfolio_content grid swiper-slide">
+                <img src="https://images.indianexpress.com/2020/05/spotify-bloom-1200.jpg" alt="" class="portfolio_img">
+
+                <div class="portfolio_data">
+                    <h3 class="portfolio_title">Spotify | Clone</h3>
+                    <p class="portfolio_description"> 
+                        Website adaptable to all device with UI component and animated interaction.
+
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio_button">
+                        Demo
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </a>
+
+                </div>
+            </div>
+
+
+           
+        </div>
+
+        <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+            <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+</setcion>
+
+
+
+<!-- /////////////////// Contact Me ////////////////////  -->
+
+<section class="contact section" id="contact">
+    <h2 class="section_title">Contact Me</h2>
+    <span class="section_subtitle">Get in Touch</span>
+    <div class="contact_container container grid">
+        <div>
+            <div class="contact_information">
+                <i class="uil uil-phone contact_icon"></i>
+                <div>
+                    <h3 class="contact_title">
+                        Call Me
+                    </h3>
+                    <div class="contact_subtitle">+91 9791185388</div>
+                    <div class="contact_subtitle">+91 8838093467</div>
+                </div>
+            </div>
+
+            <div class="contact_information">
+                <i class="uil uil-envelope contact_icon"></i>
+                <div>
+                    <h3 class="contact_title">
+                        Email
+                    </h3>
+                    <div class="contact_subtitle">roysatyajit772912@gmail.com</div>
+                 
+                </div>
+            </div>
+
+            <div class="contact_information">
+                <i class="uil uil-map-marker contact_icon"></i>
+                <div>
+                    <h3 class="contact_title">
+                       Location
+                    </h3>
+                    <div class="contact_subtitle">Kanchanpur, Tripura</div>
+                    
+                </div>
+            </div>
+        </div>
+        <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+                <div class="contact_content">
+                    <label for="" class="contact_label">Name</label>
+                    <input type="text" class="contact_input">
+                </div>
+
+                <div class="contact_content">
+                    <label for="" class="contact_label">Email</label>
+                    <input type="text" class="contact_input">
+                </div>
+            </div>
+            <div class="contact_content">
+                <label for="" class="contact_label">Message</label>
+                <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+            </div>
+
+            <div>
+                <a href="" class="button button--flex">
+                    Send Mesaage
+                    <i class="uil uil-message button_icon"></i>
+                </a>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
 
 </div>
 
-    <script src=""></script>
+    <script src="./swiper-bundle.min.js"></script>
 
     <script src="./index.js"></script>
 </body>
