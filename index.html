@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- ////////// swiper css ///////// -->
     <link rel="stylesheet" href="./swiper-bundle.min.css">
 
@@ -133,8 +134,8 @@
             <span class="section_subtitle">My Introduction</span>
             <div class="about_container container grid">
                 <img src="https://makemoon.net/wp-content/uploads/huong-dan-chi-tiet-hoc-css-co-ban.jpg" alt=""
-                    class="about_img">
-                <div class="about_data">
+                    class="about_img"  data-aos="slide-right">
+                <div class="about_data" data-aos="slide-left">
                     <p class="about_description">
                         I am a FullStack developer, with good knowledge and year of experience, working in web
                         technologies and delivering quality works.
@@ -174,11 +175,11 @@
         <section class="skills section" id="skills">
             <h2 class="section_title">Skills</h2>
             <span class="section_subtitle">My technical level</span>
-            <div class="skills_container container grid">
+            <div class="skills_container container grid" data-aos="fade-in">
                 <div>
 
                     <!-- /////////////Frotn END///////////// -->
-                    <div class="skills_content skills_open">
+                    <div class="skills_content skills_open" >
                         <div class="skills_header">
                             <i class="uil uil-brackets-curly skills_icon"></i>
                             <div>
@@ -245,7 +246,7 @@
                 </div>
                 <div>
                     <!-- /////////////Back END //////////////// -->
-                    <div class="skills_content skills_close">
+                    <div class="skills_content skills_close" >
                         <div class="skills_header">
                             <i class="uil uil-server-network skills_icon"></i>
                             <div>
@@ -342,7 +343,7 @@
                     <!-- /////////////// Qualification --c1 //////////////////// -->
                     <div class="qualification_content qualification_active" data-content id="education">
                         <!-- //////////// Q1 ////////// -->
-                        <div class="qualification_data">
+                        <div class="qualification_data" data-aos="flip-left">
                             <div>
                                 <h3 class="qualification_title">Computer Science Engineering</h3>
                                 <span class="qualification_subtitle">DR.MGR University</span>
@@ -358,7 +359,7 @@
                         </div>
 
                         <!-- //////////// Q2 ////////// -->
-                        <div class="qualification_data">
+                        <div class="qualification_data" data-aos="flip-right">
                             <div></div>
 
                             <div>
@@ -379,7 +380,7 @@
                         </div>
 
                         <!-- //////////// Q3 ////////// -->
-                        <div class="qualification_data">
+                        <div class="qualification_data" data-aos="flip-left">
                             <!-- <div></div> -->
 
 
@@ -406,7 +407,7 @@
                     <!-- /////////////// Qualification --c2 //////////////////// -->
                     <div class="qualification_content" data-content id="work">
                         <!-- //////////// Q1 ////////// -->
-                        <div class="qualification_data">
+                        <div class="qualification_data" data-aos="flip-left">
                             <div>
                                 <h3 class="qualification_title">Full stack</h3>
                                 <span class="qualification_subtitle">DR.MGR University</span>
@@ -557,12 +558,12 @@
 
         <!-- /////////////////// Contact Me ////////////////////  -->
 
-        <section class="contact section" id="contact">
+        <section class="contact section" id="contact" >
             <h2 class="section_title">Contact Me</h2>
             <span class="section_subtitle">Get in Touch</span>
             <div class="contact_container container grid">
                 <div>
-                    <div class="contact_information">
+                    <div class="contact_information" data-aos="zoom-in">
                         <i class="uil uil-phone contact_icon"></i>
                         <div>
                             <h3 class="contact_title">
@@ -573,7 +574,7 @@
                         </div>
                     </div>
 
-                    <div class="contact_information">
+                    <div class="contact_information" data-aos="zoom-in-down">
                         <i class="uil uil-envelope contact_icon"></i>
                         <div>
                             <h3 class="contact_title">
@@ -584,7 +585,7 @@
                         </div>
                     </div>
 
-                    <div class="contact_information">
+                    <div class="contact_information" data-aos="zoom-in-down">
                         <i class="uil uil-map-marker contact_icon"></i>
                         <div>
                             <h3 class="contact_title">
@@ -596,7 +597,7 @@
                     </div>
                 </div>
                 <form action="" class="contact_form grid">
-                    <div class="contact_inputs grid">
+                    <div class="contact_inputs grid" data-aos="zoom-in-down">
                         <div class="contact_content">
                             <label for="" class="contact_label">Name</label>
                             <input type="text" class="contact_input">
@@ -677,6 +678,10 @@
     <script src="./swiper-bundle.min.js"></script>
 
     <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
