@@ -472,27 +472,27 @@ font-size: var(--smaller-font-size);
 }
 
 .skills_html{
-    width: 80%;
+    width: 100%;
 }
 .skills_css{
-    width: 80%;
+    width: 100%;
 }
 .skills_js{
-    width: 60%;
+    width: 100%;
 }
 
 
 .skills_java{
-    width: 60%;
+    width: 100%;
 }
 .skills_sb{
-    width: 65%;
+    width: 100%;
 }
 .skills_hn{
-    width: 70%;
+    width: 100%;
 }
 .skills_sql{
-    width: 80%;
+    width: 100%;
 }
 
 
